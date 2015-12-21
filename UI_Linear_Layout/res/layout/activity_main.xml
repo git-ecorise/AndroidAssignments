@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ecorise.ui_linear_layout.MainActivity" >
+
+ 
+    
+    <EditText 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Username"
+        android:layout_marginBottom="10dp"
+        />
+    
+    <TextView 
+        android:text="Password"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+        />
+    
+    <EditText 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Enter Your Password"
+        />
+   
+   <Button 
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:text="Login"
+       /> 
+    
+   <LinearLayout 
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+    	android:background="#2a2a2a"
+    	android:layout_marginTop="25dip"
+       >
+       <TextView 
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:text="Home"
+           android:layout_weight="1"
+           android:padding="15dp"
+           android:textColor="#ffff"
+           android:gravity="center"
+           />
+       <TextView 
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:padding="15dp"
+           android:text="Cancle"
+           android:textColor="#ffff"
+           android:gravity="center"
+           />
+   </LinearLayout>
+   
+    
+</LinearLayout>

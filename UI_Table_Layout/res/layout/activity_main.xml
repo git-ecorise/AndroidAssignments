@@ -1,0 +1,82 @@
+<TableLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent" 
+    android:shrinkColumns="*"  android:stretchColumns="*" android:background="#ffffff"> 
+    <!-- Row 1 with single column -->
+    <TableRow 
+        android:layout_height="wrap_content" 
+        android:layout_width="fill_parent" 
+        android:gravity="center_horizontal">
+          
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp" 
+            android:text="Login"  
+            android:layout_span="3"
+            android:padding="18dip"
+            android:gravity="center" 
+            />  
+    </TableRow>  
+     
+    <!-- Row 2 with 3 columns -->
+    <TableRow 
+        android:id="@+id/tableRow1" 
+        android:layout_height="wrap_content" 
+        android:layout_width="match_parent">  
+        <TextView 
+            android:id="@+id/user" 
+            android:text="Username"
+            android:layout_weight="1" 
+            android:padding="20dip" 
+            android:gravity="center" 
+            />  
+        <EditText 
+            android:id="@+id/etuser" 
+            android:text="username"
+            android:layout_weight="1" 
+            android:padding="20dip" 
+            android:gravity="center"/>
+    </TableRow> 
+     
+    <!-- Row 3 with 2 columns -->
+    <TableRow 
+        android:layout_height="wrap_content" 
+        android:layout_width="fill_parent" 
+        android:gravity="center_horizontal">  
+        <TextView 
+            android:id="@+id/pass" 
+            android:text="Password"
+            android:layout_weight="1" 
+            android:padding="20dip" 
+            android:gravity="center"/>  
+        <EditText 
+            android:id="@+id/etpass" 
+            android:text="password"
+            android:layout_weight="1" 
+            android:padding="20dip" 
+            android:gravity="center"/>  
+    </TableRow> 
+    
+    <TableRow 
+        android:layout_height="wrap_content" 
+        android:layout_width="fill_parent" 
+        android:gravity="center_horizontal">
+        <Button 
+            android:id="@+id/btnlogin"
+            android:layout_weight="1"
+            android:padding="20dp"
+            android:text="Login"
+            android:gravity="center"
+            />
+        <Button 
+            android:id="@+id/btncancle"
+            android:layout_weight="1"
+            android:padding="20dp"
+            android:text="Cancle"
+            android:gravity="center"
+            />
+        </TableRow>
+     
+</TableLayout>
