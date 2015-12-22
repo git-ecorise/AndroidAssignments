@@ -12,7 +12,7 @@ This Repo contains android assignments that will cover SPPU's Mobile Computing L
 				</ul>
 
 
-					<h1>Steps to Download ADT Bundle<h1>
+					<h1>Steps to Download ADT Bundle</h1>
 
 
 				<ul>
