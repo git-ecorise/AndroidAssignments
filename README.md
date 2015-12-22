@@ -3,6 +3,7 @@
 
 This Repo contains android assignments that will cover SPPU's Mobile Computing Lab.
 
+<pre>
 				<h1>	Steps to Download assignments and How to use it.</h1>
 
 				<ul>
@@ -37,4 +38,4 @@ This Repo contains android assignments that will cover SPPU's Mobile Computing L
 					+91 967 363 9643
 					www.ecorise.in
 					www.mongowithmahesh.in<h2>
-				
+				</pre>
